@@ -8,4 +8,6 @@ const ports = process.env.PORT || 8000;
 server.unsubscribe(middleware);
 server.use(router);
 
-server.listen(ports);
+server.listen(ports, () => {
+  console.log("Server is running");
+});
