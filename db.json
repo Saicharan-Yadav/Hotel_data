@@ -1,0 +1,40 @@
+{
+  "foodItems": [
+    {
+      "id": 1,
+      "item": "Dosa",
+      "price": 40,
+      "Hotel": "Hotel Saravanna",
+      "img": "./IMAGES/dosa1.jpg"
+    },
+    {
+      "id": 2,
+      "item": "Poori",
+      "price": 30,
+      "Hotel": "Hotel Mayuri",
+      "img": "./IMAGES/poori.jpg"
+    },
+    {
+      "id": 3,
+      "item": "Idly&Vada",
+      "price": 40,
+      "Hotel": "Hotel Balaji",
+      "img": "./IMAGES/idly.webp"
+    },
+    {
+      "id": 4,
+      "item": "Pongal",
+      "price": 30,
+      "Hotel": "Hotel chinamyi",
+      "img": "./IMAGES/pongal.jpg"
+    },
+    {
+      "id": 5,
+      "item": "Upma",
+      "price": 35,
+      "Hotel": "Hotel Saravanna",
+      "img": "./IMAGES/upma.jpg"
+    }
+  ],
+  "orders": []
+}
