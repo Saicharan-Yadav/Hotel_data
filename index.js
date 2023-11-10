@@ -4,12 +4,13 @@ const router = jsonServer.router("db.json");
 const cors = require("cors");
 
 const middleware = jsonServer.defaults();
-const ports = process.env.PORT || 8000;
+const port = process.env.PORT || 8000;
 
-server.unsubscribe(middleware);
-server.use(router);
+// Use instead of unsubscribe
+server.use(middleware);
 server.use(cors());
+server.use(router);
 
-server.listen(ports, () => {
+server.listen(port, () => {
   console.log("Server is running");
 });
